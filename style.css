@@ -1,0 +1,161 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+}
+
+.banner {
+    width: 100%;
+    height: auto;
+    display: block;
+
+}
+
+.texto-azul{
+    font-family: Poppins;
+    width: 1484px;
+    color: #002C5E;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 122px 150px 122px 150px;
+}
+
+
+.div-buttons{
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    margin-top: 58px;
+}
+
+.div-buttons button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 370px;
+    height: 76px;
+    border: none;
+    border-radius: 20px;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.button-email {
+    background: #0B83BF;
+}
+
+.button-whatsapp {
+    background: #008000;
+}
+
+.button-central {
+    background: #800000;
+}
+
+button img {
+    width: 32px;
+    height: 32px;
+    margin-right: 5px;
+}
+
+
+
+
+
+
+
+
+.conheca-mais{
+    background-color: #002C5E;
+}
+
+.conheca-mais h1{
+    display: flex;
+    justify-content: center;
+    color: #D3AC2B;
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 35px;
+    margin-bottom: 90px;
+}
+
+
+.card-pai{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+}
+
+.card-plataforma{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-plataforma img{
+    width: 520px;
+    height: 352.258px;
+    border-radius: 20px;
+}
+
+.card-plataforma h2{
+    display: flex;
+    justify-content: center;
+    color: #D3AC2B;
+    font-family: Poppins;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 49px; /* 188.462% */
+    margin-top: 44px;
+}
+
+.card-plataforma p{
+    display: flex;
+    justify-content: center;
+    color: #D3AC2B;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22px; /* 110% */
+    margin-top: 22px;
+}
+
+.card-plataforma button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 233px;
+    height: 77.658px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    background: #D3AC2B;
+    color: #FFF;
+    text-align: justify;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    border: none;
+    margin-top: 57px;
+    margin-bottom: 75px;
+}
